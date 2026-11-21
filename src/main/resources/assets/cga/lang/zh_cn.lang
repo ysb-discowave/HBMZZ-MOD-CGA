@@ -1,0 +1,10 @@
+tile.cga.blast_door.name=防爆门
+tile.cga.blast_door_panel.name=防爆门门板
+itemGroup.cga=HBMZZ-MOD-CGA
+
+tooltip.cga.door.1=手持木斧右键：建造 / 开关门。
+tooltip.cga.door.2=手持木斧潜行右键：循环切换尺寸 / 收进方向 / 反向信号。
+tooltip.cga.door.3=红石也能开合。爆炸抗性：6000。
+
+chat.cga.door.need_axe=你需要手持木斧才能操作这扇门。
+chat.cga.door.build_fail=门建造失败：%s

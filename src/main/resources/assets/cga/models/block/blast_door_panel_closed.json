@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cga:door_bottom",
+    "up": "cga:door_top",
+    "north": "cga:door_front_closed",
+    "south": "cga:door_front_closed",
+    "west": "cga:door_side",
+    "east": "cga:door_side"
+  }
+}

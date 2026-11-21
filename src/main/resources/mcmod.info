@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "cga",
+    "name": "HBMZZ-MOD-CGA",
+    "description": "HBMZZ 分支 mod：还原 Roblox 核心游戏。首波内容：各种各样的防爆门。",
+    "version": "0.1.0",
+    "credits": "HBMZZ-MOD-CGA",
+    "authorList": [],
+    "url": "",
+    "updateUrl": "",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "displayUrl": "",
+    "issueTrackerUrl": "",
+    "dependencies": []
+  }
+]

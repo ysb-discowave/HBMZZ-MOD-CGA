@@ -1,0 +1,10 @@
+tile.cga.blast_door.name=Blast Door
+tile.cga.blast_door_panel.name=Blast Door Panel
+itemGroup.cga=HBMZZ-MOD-CGA
+
+tooltip.cga.door.1=Right-click with a wooden axe to build / open-close.
+tooltip.cga.door.2=Sneak + right-click with a wooden axe to cycle size / retract / invert.
+tooltip.cga.door.3=Redstone can toggle it too. Blast resistance: 6000.
+
+chat.cga.door.need_axe=You need a wooden axe to operate this door.
+chat.cga.door.build_fail=Door build failed: %s

@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = '0.1.0'
+group = 'com.cga'
+archivesBaseName = 'hbmzz-mod-cga'
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-proc:none'
+}
+
+minecraft {
+    version = '1.12.2-14.23.5.2847'
+    runDir = 'run'
+    mappings = 'snapshot_20171003'
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    exclude 'META-INF/fml_cache_annotation.json'
+    exclude 'META-INF/fml_cache_class_versions.json'
+    manifest {
+        attributes([
+            'Specification-Title'   : 'hbmzz-mod-cga',
+            'Specification-Vendor'  : 'cga',
+            'Specification-Version' : '1',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.version
+        ])
+    }
+}
